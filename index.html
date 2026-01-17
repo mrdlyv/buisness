@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <title>AMG KL</title>
+  <style>
+    .sosial{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .sos{
+      width: 30px;
+      margin: 5px;
+      transition: .3s;
+    }
+    .sos:hover{
+      scale: 1.3;
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .amg{
+      animation: yuxari 1s ease-in-out alternate;
+    }
+
+    .p {
+      animation: soldan 1s ease-in-out alternate;;
+    }
+
+    @keyframes yuxari {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes soldan {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" style="padding-top: 53px;">
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#melumat">Melumat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#haqqinda">Haqqinda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#etrafli">Etrafli</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide container mt-3" data-bs-ride="carousel"
+      data-bs-interval="2000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="text-shadow: 3px 3px 3px black;">
+      <div class="carousel-item active">
+        <img src="moon1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="moon2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="moon3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ 
+
+  <div class="container" id="haqqinda" style="scroll-margin-top: 50px;">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4 text-center" id="etrafli" style="scroll-margin-top: 70px;">
+    <div class="display-1 mb-3 amg">Biz Nest</div>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus ab iste nobis sed illum similique
+      deserunt vero in facere est perspiciatis aspernatur odio mollitia ut, esse vel dolore assumenda.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Etrafli...
+    </button>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">AMG KL haqqinda</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corrupti optio iure exercitationem molestias veniam nisi officia molestiae ut velit voluptates tenetur harum id fugit, omnis cumque quae tempora recusandae facilis aspernatur ducimus ratione quas temporibus. Asperiores iste, consectetur quia eveniet quo praesentium error ad ea magnam animi ipsa veniam a. Est optio laborum qui deserunt natus vel a! Incidunt perspiciatis accusamus possimus, recusandae illo laboriosam dolores ipsam rerum maxime iste, laborum qui quae voluptas delectus repellat! Sed maxime neque eaque iure similique possimus ad numquam accusamus corporis? Ducimus labore, possimus inventore obcaecati excepturi alias! Odio, aspernatur? Qui, est error!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg-dark text-light py-4">
+    <div class="h1 text-center my-3">Bizimle Elaqe</div>
+
+    <div class="map img-thumbnail">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.82441637788!2d49.900772475093646!3d40.38605705750714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d8144e08d71%3A0xbdfda3ce222b3ed3!2sASPA%20Education%20Center!5e1!3m2!1saz!2saz!4v1745936297312!5m2!1saz!2saz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="container sosial mt-5">
+      <a href="https://wa.me/+994508408000">
+        <img src="wp.png" class="sos">
+      </a>
+      <a href="https://youtube.com">
+        <img src="ytb.png" class="sos">
+      </a>
+      <a href="https://facebook.com">
+        <img src="fb.png" class="sos">
+      </a>
+      <a href="https://instagram.com">
+        <img src="insta.png" class="sos rounded">
+      </a>
+      <a href="tel:+994508408000">
+        <img src="phone.png" class="sos">
+      </a>
+    </div>
+  </div>
+
+  <div class="footer bg-dark text-light text-center fixed-bottom p-1">
+      Design by erlams &copy; 2025
+  </div>
+
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
